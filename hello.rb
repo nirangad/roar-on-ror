@@ -8,6 +8,6 @@ def say_hello_to(name)
   puts "Hello #{name}"
 end
 
-puts "Enter your name:"
+puts 'Enter your name:'
 name = gets.chomp
 say_hello_to name
